@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Http;
 namespace WebApiDemo.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class POCController : ApiController
     {
         [HttpGet]

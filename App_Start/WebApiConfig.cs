@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using Unity;
+using Unity.WebApi;
+using WebApiDemo.repo;
+using WebApiDemo.Service.Services;
 
 namespace WebApiDemo
 {
@@ -10,7 +14,10 @@ namespace WebApiDemo
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
-
+            var container = new UnityContainer();
+            container.RegisterType(typeof(IRepo<>), typeof(Repo<>));
+            container.RegisterType<IQuoteService, QuoteService>();
+            config.DependencyResolver = new UnityDependencyResolver(container);
             // Web API routes
             config.MapHttpAttributeRoutes();
 

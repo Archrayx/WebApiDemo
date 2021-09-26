@@ -16,7 +16,5 @@ namespace WebApiDemo.Models
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
-
-        public System.Data.Entity.DbSet<WebApiDemo.Models.ApplicationUser> ApplicationUsers { get; set; }
     }
 }

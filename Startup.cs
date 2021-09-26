@@ -10,11 +10,13 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security.OAuth;
 using WebApiDemo;
-[assembly: OwinStartup(typeof(WebApiDemo.Startup))]
 
-namespace WebApiDemo
+
+[assembly: OwinStartup(typeof(Startup))]
+
+/*namespace WebApiDemo
 {
-    public class Startup
+    public partial class Startup
     {
         public void Configuration(IAppBuilder app)
         {
@@ -25,7 +27,7 @@ namespace WebApiDemo
 
         private void ConfigureOAuth(IAppBuilder app)
         {
-            app.CreatePerOwinContext<DBContext>(() => new DBContext());
+            //app.CreatePerOwinContext(() => new (ApplicationDBContext));
             app.CreatePerOwinContext<UserManager<IdentityUser>>(CreateManager);
             app.UseOAuthAuthorizationServer(new OAuthAuthorizationServerOptions
             {
@@ -38,12 +40,12 @@ namespace WebApiDemo
             app.UseOAuthBearerAuthentication(new OAuthBearerAuthenticationOptions());
         }
 
-        private static UserManager<IdentityUser> CreateManager(IdentityFactoryOptions<UserManager<IdentityUser>> options, IOwinContext context)
+        /*private static UserManager<IdentityUser> CreateManager(IdentityFactoryOptions<UserManager<IdentityUser>> options, IOwinContext context)
         {
-            var userStore = new UserStore<IdentityUser>(context.Get<DBContext>());
-            var owinManager = new UserManager<IdentityUser>(userStore);
-            return owinManager;
+           // var userStore = new UserStore<IdentityUser>(context.Get<DBContext>());
+           // var owinManager = new UserManager<IdentityUser>(userStore);
+           // return owinManager;
         }
         
     }
-}
+}*/

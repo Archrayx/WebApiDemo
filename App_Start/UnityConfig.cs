@@ -52,7 +52,7 @@ namespace WebApiDemo
             var container = new UnityContainer();
             container.RegisterType(typeof(IRepo<>), typeof(Repo<>));
             container.RegisterType<IQuoteService, QuoteService>();
-            var obj = container.Resolve<IRepo<object>>();
+            //var obj = container.Resolve<IRepo<object>>();
             DependencyResolver.SetResolver(new UnityDependencyResolver(container));
         }
     }

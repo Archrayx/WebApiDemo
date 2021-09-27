@@ -10,11 +10,11 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security.OAuth;
 using WebApiDemo;
-
+using Microsoft.Owin.Security.Cookies;
 
 [assembly: OwinStartup(typeof(Startup))]
 
-/*namespace WebApiDemo
+namespace WebApiDemo
 {
     public partial class Startup
     {
@@ -27,25 +27,14 @@ using WebApiDemo;
 
         private void ConfigureOAuth(IAppBuilder app)
         {
-            //app.CreatePerOwinContext(() => new (ApplicationDBContext));
-            app.CreatePerOwinContext<UserManager<IdentityUser>>(CreateManager);
-            app.UseOAuthAuthorizationServer(new OAuthAuthorizationServerOptions
+            app.UseCookieAuthentication(new CookieAuthenticationOptions
             {
-                TokenEndpointPath = new PathString("/oauth/token"),
-                Provider = new AuthorizationServerProvider(),
-                AccessTokenExpireTimeSpan = TimeSpan.FromMinutes(30),
-                AllowInsecureHttp = true,
-
+                AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie,
+                LoginPath = new PathString("/Account/Login")
             });
-            app.UseOAuthBearerAuthentication(new OAuthBearerAuthenticationOptions());
         }
 
-        /*private static UserManager<IdentityUser> CreateManager(IdentityFactoryOptions<UserManager<IdentityUser>> options, IOwinContext context)
-        {
-           // var userStore = new UserStore<IdentityUser>(context.Get<DBContext>());
-           // var owinManager = new UserManager<IdentityUser>(userStore);
-           // return owinManager;
-        }
+        
         
     }
-}*/
+}

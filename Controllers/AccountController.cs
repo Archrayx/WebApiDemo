@@ -7,13 +7,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
-using WebApiDemo;
 using Microsoft.Owin.Security;
 using Microsoft.AspNet.Identity.Owin;
 
+
 namespace WebApiDemo.Controllers
 {
-
+   
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;
@@ -50,6 +50,15 @@ namespace WebApiDemo.Controllers
                 return HttpContext.GetOwinContext().Authentication;
             }
         }
+        /*private ApplicationSignInManager signInManager;
+        private ApplicationUserManager applicationUserManager;
+        private IAuthenticationManager authenticationManager;
+        public AccountController()
+        {
+            this.signInManager = HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
+            this.applicationUserManager = HttpContext.GetOwinContext().GetUserManager<ApplicationUserManager>();
+            this.authenticationManager = HttpContext.GetOwinContext().Authentication;
+        }*/
         //
         // GET: /Account/Register
         [AllowAnonymous]
@@ -70,17 +79,13 @@ namespace WebApiDemo.Controllers
             if (ModelState.IsValid)
             {
                 var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                /*UserStore<ApplicationUser> Store = new UserStore<ApplicationUser>(new ApplicationDbContext());
+                ApplicationUserManager userManager = new ApplicationUserManager(Store);
+                var result = await userManager.CreateAsync(user, model.Password);*/
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
                     await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
-
-                    // For more information on how to enable account confirmation and password reset please visit http://go.microsoft.com/fwlink/?LinkID=320771
-                    // Send an email with this link
-                    // string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
-                    // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
-                    // await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
-
                     return RedirectToAction("Index", "Home");
                 }
                 AddErrors(result);

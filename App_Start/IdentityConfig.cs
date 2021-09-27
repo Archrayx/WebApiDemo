@@ -11,10 +11,7 @@ using Microsoft.Owin.Security;
 
 namespace WebApiDemo
 {
-    public class IdentityConfig
-    {
-
-    }
+    
  
  
     public class ApplicationUserStore : UserStore<ApplicationUser>

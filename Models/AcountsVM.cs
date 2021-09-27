@@ -6,10 +6,7 @@ using System.Web;
 
 namespace WebApiDemo.Models
 {
-    public class AcountsVM
-    {
-       
-    }
+  
     public class RegisterViewModel
     {
         [Required]

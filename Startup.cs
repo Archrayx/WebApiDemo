@@ -12,7 +12,7 @@ using Microsoft.Owin.Security.OAuth;
 using WebApiDemo;
 using Microsoft.Owin.Security.Cookies;
 
-[assembly: OwinStartup(typeof(Startup))]
+[assembly: OwinStartup(typeof(WebApiDemo.Startup))]
 
 namespace WebApiDemo
 {
@@ -21,20 +21,23 @@ namespace WebApiDemo
         public void Configuration(IAppBuilder app)
         {
 
-            ConfigureOAuth(app);
-
-        }
-
-        private void ConfigureOAuth(IAppBuilder app)
-        {
+            ConfigureAuth(app);
             app.UseCookieAuthentication(new CookieAuthenticationOptions
             {
                 AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie,
                 LoginPath = new PathString("/Account/Login")
             });
+
         }
 
-        
-        
+        /*private void ConfigureOAuth(IAppBuilder app)
+        {
+            app.CreatePerOwinContext(ApplicationDbContext.Create);
+            app.CreatePerOwinContext<ApplicationUserManager>(ApplicationUserManager.Create);
+            app.CreatePerOwinContext<ApplicationSignInManager>(ApplicationSignInManager.Create);
+
+        }*/
+
+
     }
 }

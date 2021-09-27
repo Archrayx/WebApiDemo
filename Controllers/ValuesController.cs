@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Security.Claims;
 using System.Web.Http;
 using WebApiDemo.Service;
 namespace WebApiDemo.Controllers
 {
+    [Authorize]
     public class ValuesController : ApiController
     {
         // GET api/values
@@ -34,6 +36,18 @@ namespace WebApiDemo.Controllers
         // DELETE api/values/5
         public void Delete(int id)
         {
+        }
+
+
+
+        //[Authorize(Users = "SuperAdmin, Admin, User")]
+        [HttpGet]
+        [Route("api/values/getvalues")]
+        public IHttpActionResult GetValues()
+        {
+            var identity = (ClaimsIdentity)User.Identity;
+            
+            return Ok("Hello: " + identity.Name);
         }
     }
 }

@@ -17,6 +17,7 @@ namespace WebApiDemo.Controllers
 
             return View();
         }
+
         public async Task<string> AddUser()
         {
             ApplicationUser user;

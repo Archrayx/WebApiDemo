@@ -26,7 +26,7 @@ namespace WebApiDemo
 
             //Auth for webApi Requests
             app.UseCors(CorsOptions.AllowAll);
-
+            
             var OAuthOptions = new OAuthAuthorizationServerOptions
             {
                 AllowInsecureHttp = true,

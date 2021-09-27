@@ -8,7 +8,7 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin;
 
-namespace ASPNetIdentity
+namespace WebApiDemo
 {
     public partial class Startup
     {

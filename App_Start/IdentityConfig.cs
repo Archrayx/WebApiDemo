@@ -9,7 +9,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 
-namespace ASPNetIdentity
+namespace WebApiDemo
 {
     public class IdentityConfig
     {

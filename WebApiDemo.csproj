@@ -292,6 +292,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\QuoteValuesController.cs" />
+    <Compile Include="Controllers\SoccerTrackerController.cs" />
     <Compile Include="EntityMigrations\Configuration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

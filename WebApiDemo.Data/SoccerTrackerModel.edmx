@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="SoccerTrackerDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="FinalSoccerEdit$">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Team 1" Type="nvarchar" MaxLength="255" />
+          <Property Name="Team 2" Type="nvarchar" MaxLength="255" />
+          <Property Name="Date" Type="datetime" />
+          <Property Name="ML Price" Type="float" />
+          <Property Name="-205" Type="float" />
+          <Property Name="Price % delta" Type="float" StoreGeneratedPattern="Computed" />
+          <Property Name="Column1" Type="float" StoreGeneratedPattern="Computed" />
+          <Property Name="Price Delta" Type="float" StoreGeneratedPattern="Computed" />
+          <Property Name="Result" Type="nvarchar" MaxLength="255" />
+          <Property Name="First Half Result" Type="nvarchar" MaxLength="255" />
+          <Property Name="Final Score" Type="nvarchar" MaxLength="255" />
+          <Property Name="Shots" Type="float" />
+          <Property Name="SOG" Type="float" />
+          <Property Name="Dangerous Attacks" Type="float" />
+          <Property Name="Attacks" Type="float" />
+          <Property Name="ACR" Type="float" StoreGeneratedPattern="Computed" />
+          <Property Name="Possession" Type="float" />
+          <Property Name="Card Count" Type="float" />
+          <Property Name="Score First? (Yes/No)" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityContainer Name="SoccerTrackerDbModelStoreContainer">
+          <EntitySet Name="FinalSoccerEdit$" EntityType="Self.FinalSoccerEdit$" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SoccerTrackerDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="FinalSoccerEdit_">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Team_1" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Team_2" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Date" Type="DateTime" Precision="3" />
+          <Property Name="ML_Price" Type="Double" />
+          <Property Name="C_205" Type="Double" />
+          <Property Name="Price___delta" Type="Double" annotation:StoreGeneratedPattern="Computed" />
+          <Property Name="Column1" Type="Double" annotation:StoreGeneratedPattern="Computed" />
+          <Property Name="Price_Delta" Type="Double" annotation:StoreGeneratedPattern="Computed" />
+          <Property Name="Result" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="First_Half_Result" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Final_Score" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Shots" Type="Double" />
+          <Property Name="SOG" Type="Double" />
+          <Property Name="Dangerous_Attacks" Type="Double" />
+          <Property Name="Attacks" Type="Double" />
+          <Property Name="ACR" Type="Double" annotation:StoreGeneratedPattern="Computed" />
+          <Property Name="Possession" Type="Double" />
+          <Property Name="Card_Count" Type="Double" />
+          <Property Name="Score_First___Yes_No_" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="FinalSoccerEdit_" EntityType="Self.FinalSoccerEdit_" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SoccerTrackerDbModelStoreContainer" CdmEntityContainer="Entities">
+          <EntitySetMapping Name="FinalSoccerEdit_">
+            <EntityTypeMapping TypeName="SoccerTrackerDbModel.FinalSoccerEdit_">
+              <MappingFragment StoreEntitySet="FinalSoccerEdit$">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Team_1" ColumnName="Team 1" />
+                <ScalarProperty Name="Team_2" ColumnName="Team 2" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="ML_Price" ColumnName="ML Price" />
+                <ScalarProperty Name="C_205" ColumnName="-205" />
+                <ScalarProperty Name="Price___delta" ColumnName="Price % delta" />
+                <ScalarProperty Name="Column1" ColumnName="Column1" />
+                <ScalarProperty Name="Price_Delta" ColumnName="Price Delta" />
+                <ScalarProperty Name="Result" ColumnName="Result" />
+                <ScalarProperty Name="First_Half_Result" ColumnName="First Half Result" />
+                <ScalarProperty Name="Final_Score" ColumnName="Final Score" />
+                <ScalarProperty Name="Shots" ColumnName="Shots" />
+                <ScalarProperty Name="SOG" ColumnName="SOG" />
+                <ScalarProperty Name="Dangerous_Attacks" ColumnName="Dangerous Attacks" />
+                <ScalarProperty Name="Attacks" ColumnName="Attacks" />
+                <ScalarProperty Name="ACR" ColumnName="ACR" />
+                <ScalarProperty Name="Possession" ColumnName="Possession" />
+                <ScalarProperty Name="Card_Count" ColumnName="Card Count" />
+                <ScalarProperty Name="Score_First___Yes_No_" ColumnName="Score First? (Yes/No)" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SoccerTrackerDbModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="FinalSoccerEdit_">
+      <EntityTypeMapping TypeName="SoccerTrackerDbModel.FinalSoccerEdit_">
+        <MappingFragment StoreEntitySet="FinalSoccerEdit$">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Team_1" ColumnName="Team 1" />
+          <ScalarProperty Name="Team_2" ColumnName="Team 2" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="ML_Price" ColumnName="ML Price" />
+          <ScalarProperty Name="C_205" ColumnName="-205" />
+          <ScalarProperty Name="Price___delta" ColumnName="Price % delta" />
+          <ScalarProperty Name="Column1" ColumnName="Column1" />
+          <ScalarProperty Name="Price_Delta" ColumnName="Price Delta" />
+          <ScalarProperty Name="Result" ColumnName="Result" />
+          <ScalarProperty Name="First_Half_Result" ColumnName="First Half Result" />
+          <ScalarProperty Name="Final_Score" ColumnName="Final Score" />
+          <ScalarProperty Name="Shots" ColumnName="Shots" />
+          <ScalarProperty Name="SOG" ColumnName="SOG" />
+          <ScalarProperty Name="Dangerous_Attacks" ColumnName="Dangerous Attacks" />
+          <ScalarProperty Name="Attacks" ColumnName="Attacks" />
+          <ScalarProperty Name="ACR" ColumnName="ACR" />
+          <ScalarProperty Name="Possession" ColumnName="Possession" />
+          <ScalarProperty Name="Card_Count" ColumnName="Card Count" />
+          <ScalarProperty Name="Score_First___Yes_No_" ColumnName="Score First? (Yes/No)" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

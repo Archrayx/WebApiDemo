@@ -1,0 +1,132 @@
+C:\Users\river\source\repos\WebApiDemo.repo\bin\WebApiDemo.repo.dll.config
+C:\Users\river\source\repos\WebApiDemo.repo\bin\WebApiDemo.repo.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\WebApiDemo.repo.pdb
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\csc.exe
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\csc.exe.config
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\csc.rsp
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\csi.exe
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\csi.exe.config
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\csi.rsp
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.AppContext.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Console.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.IO.Compression.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Net.Http.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Net.Sockets.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.ValueTuple.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Xml.XPath.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\vbc.exe
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\vbc.exe.config
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\vbc.rsp
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\VBCSCompiler.exe
+C:\Users\river\source\repos\WebApiDemo.repo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\river\source\repos\WebApiDemo.repo\bin\EntityFramework.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\EntityFramework.SqlServer.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\WebApiDemo.Data.dll
+C:\Users\river\source\repos\WebApiDemo.repo\bin\WebApiDemo.Data.pdb
+C:\Users\river\source\repos\WebApiDemo.repo\bin\WebApiDemo.Data.dll.config
+C:\Users\river\source\repos\WebApiDemo.repo\bin\EntityFramework.xml
+C:\Users\river\source\repos\WebApiDemo.repo\bin\EntityFramework.SqlServer.xml
+C:\Users\river\source\repos\WebApiDemo.repo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\river\source\repos\WebApiDemo.repo\obj\Debug\WebApiDemo.repo.csproj.AssemblyReference.cache
+C:\Users\river\source\repos\WebApiDemo.repo\obj\Debug\WebApiDemo.repo.csproj.CoreCompileInputs.cache
+C:\Users\river\source\repos\WebApiDemo.repo\obj\Debug\WebApiDemo.repo.csproj.CopyComplete
+C:\Users\river\source\repos\WebApiDemo.repo\obj\Debug\WebApiDemo.repo.dll
+C:\Users\river\source\repos\WebApiDemo.repo\obj\Debug\WebApiDemo.repo.pdb
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\WebApiDemo.repo.dll.config
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\WebApiDemo.repo.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\WebApiDemo.repo.pdb
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\csc.exe
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\csc.exe.config
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\csc.rsp
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\csi.exe
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\csi.exe.config
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\csi.rsp
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.AppContext.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Console.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.IO.Compression.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Net.Http.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Net.Sockets.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.ValueTuple.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Xml.XPath.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\vbc.exe
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\vbc.exe.config
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\vbc.rsp
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\VBCSCompiler.exe
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\EntityFramework.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\EntityFramework.SqlServer.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\WebApiDemo.Data.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\WebApiDemo.Data.pdb
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\WebApiDemo.Data.dll.config
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\EntityFramework.xml
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\EntityFramework.SqlServer.xml
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\obj\Debug\WebApiDemo.repo.csproj.AssemblyReference.cache
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\obj\Debug\WebApiDemo.repo.csproj.CoreCompileInputs.cache
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\obj\Debug\WebApiDemo.repo.csproj.CopyComplete
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\obj\Debug\WebApiDemo.repo.dll
+C:\Users\river\source\repos\Visual Studio\WebApiDemo Project\WebApiDemo.repo\obj\Debug\WebApiDemo.repo.pdb

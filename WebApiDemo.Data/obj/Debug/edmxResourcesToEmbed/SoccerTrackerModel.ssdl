@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SoccerTrackerDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="FinalSoccerEdit$">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Team 1" Type="nvarchar" MaxLength="255" />
+    <Property Name="Team 2" Type="nvarchar" MaxLength="255" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="ML Price" Type="float" />
+    <Property Name="-205" Type="float" />
+    <Property Name="Price % delta" Type="float" StoreGeneratedPattern="Computed" />
+    <Property Name="Column1" Type="float" StoreGeneratedPattern="Computed" />
+    <Property Name="Price Delta" Type="float" StoreGeneratedPattern="Computed" />
+    <Property Name="Result" Type="nvarchar" MaxLength="255" />
+    <Property Name="First Half Result" Type="nvarchar" MaxLength="255" />
+    <Property Name="Final Score" Type="nvarchar" MaxLength="255" />
+    <Property Name="Shots" Type="float" />
+    <Property Name="SOG" Type="float" />
+    <Property Name="Dangerous Attacks" Type="float" />
+    <Property Name="Attacks" Type="float" />
+    <Property Name="ACR" Type="float" StoreGeneratedPattern="Computed" />
+    <Property Name="Possession" Type="float" />
+    <Property Name="Card Count" Type="float" />
+    <Property Name="Score First? (Yes/No)" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityContainer Name="SoccerTrackerDbModelStoreContainer">
+    <EntitySet Name="FinalSoccerEdit$" EntityType="Self.FinalSoccerEdit$" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
